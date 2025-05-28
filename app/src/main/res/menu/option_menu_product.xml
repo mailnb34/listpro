@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_softdrink"
+        android:title="@string/title_product_softdrink" />
+    <item
+        android:id="@+id/menu_cake"
+        android:title="@string/title_product_cake" />
+    <item
+        android:id="@+id/menu_fastfood"
+        android:title="@string/title_product_fastfood" />
+    <item
+        android:id="@+id/menu_beer"
+        android:title="@string/title_product_beer" />
+    <item
+        android:id="@+id/menu_seafood"
+        android:title="@string/title_product_seafood" />
+    <item
+        android:id="@+id/menu_vegetarian"
+        android:title="@string/title_product_vegetarian" />
+    <item
+        android:id="@+id/menu_fruit"
+        android:title="@string/title_product_fruit" />
+    <item
+        android:id="@+id/menu_snack"
+        android:title="@string/title_product_snack" />
+    <item
+        android:id="@+id/menu_coffee"
+        android:title="@string/title_product_coffee" />
+    <item
+        android:id="@+id/menu_icecream"
+        android:title="@string/title_product_icecream" />
+</menu>
