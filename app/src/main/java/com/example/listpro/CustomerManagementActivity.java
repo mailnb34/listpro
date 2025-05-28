@@ -1,4 +1,4 @@
-package com.quin.project195;
+package com.example.listpro;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -18,9 +18,9 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-import com.quin.model.Customer;
-import com.quin.model.ListCustomer;
-import com.quin.model.ListEmployee;
+import com.example.model.Customer;
+import com.example.model.ListCustomer;
+import com.example.model.ListEmployee;
 
 import java.util.zip.Inflater;
 
