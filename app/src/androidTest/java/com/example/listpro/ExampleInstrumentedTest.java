@@ -1,4 +1,4 @@
-package com.quin.project195;
+package com.example.listpro;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.quin.project195", appContext.getPackageName());
+        assertEquals("com.example.listpro", appContext.getPackageName());
     }
 }
