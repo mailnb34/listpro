@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "com.quin.project195"
+    namespace = "com.example.listpro"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.quin.project195"
+        applicationId = "com.example.listpro"
         minSdk = 26
         targetSdk = 35
         versionCode = 1
