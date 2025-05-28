@@ -1,7 +1,7 @@
-package com.quin.connector;
+package com.example.connector;
 
-import com.quin.model.Employee;
-import com.quin.model.ListEmployee;
+import com.example.model.Employee;
+import com.example.model.ListEmployee;
 
 public class EmployeeConnector {
     public Employee login(String usr,String pwd)
