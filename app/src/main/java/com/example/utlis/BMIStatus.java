@@ -1,4 +1,4 @@
-package com.quin.utlis;
+package com.example.utlis;
 
 public class BMIStatus {
     private double BMI;
