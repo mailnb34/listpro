@@ -1,4 +1,4 @@
-package com.quin.project195;
+package com.example.listpro;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -12,10 +12,10 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-import com.quin.model.Category;
-import com.quin.model.Customer;
-import com.quin.model.ListCategory;
-import com.quin.model.Product;
+import com.example.model.Category;
+import com.example.model.Customer;
+import com.example.model.ListCategory;
+import com.example.model.Product;
 
 public class ProductDetailActivity extends AppCompatActivity {
 
