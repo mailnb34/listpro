@@ -1,4 +1,4 @@
-package com.quin.project195;
+package com.example.listpro;
 
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -16,8 +16,8 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-import com.quin.connector.EmployeeConnector;
-import com.quin.model.Employee;
+import com.example.connector.EmployeeConnector;
+import com.example.model.Employee;
 
 public class LoginActivity extends AppCompatActivity {
 
@@ -64,13 +64,13 @@ public class LoginActivity extends AppCompatActivity {
 
     public void do_exit(View view) {
         AlertDialog.Builder builder=new AlertDialog.Builder(LoginActivity.this);
-        //thiết lập tiêu đề:
+        
         Resources res=getResources();
         builder.setTitle(res.getText(R.string.title_confirm_exit_title));
         builder.setMessage(res.getText(R.string.title_confirm_exit_message));
         builder.setIcon(android.R.drawable.ic_dialog_alert);
 
-        //Thiết lập tương tác người dùng:
+        
         builder.setPositiveButton(res.getText(R.string.title_confirm_exit_ok), new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
