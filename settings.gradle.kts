@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "project195"
+rootProject.name = "listpro"
 include(":app")
  
