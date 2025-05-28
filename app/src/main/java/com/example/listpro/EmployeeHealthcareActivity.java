@@ -1,4 +1,4 @@
-package com.quin.project195;
+package com.example.listpro;
 
 import android.os.Bundle;
 import android.view.View;
@@ -12,8 +12,8 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-import com.quin.utlis.BMIStatus;
-import com.quin.utlis.HealthCare;
+import com.example.utlis.BMIStatus;
+import com.example.utlis.HealthCare;
 
 public class EmployeeHealthcareActivity extends AppCompatActivity {
 
