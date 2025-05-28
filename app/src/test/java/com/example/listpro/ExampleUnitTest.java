@@ -1,4 +1,4 @@
-package com.quin.project195;
+package com.example.listpro;
 
 import org.junit.Test;
 
