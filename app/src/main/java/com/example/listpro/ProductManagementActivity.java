@@ -1,4 +1,4 @@
-package com.quin.project195;
+package com.example.listpro;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -19,10 +19,10 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-import com.quin.model.Category;
-import com.quin.model.Customer;
-import com.quin.model.ListCategory;
-import com.quin.model.Product;
+import com.example.model.Category;
+import com.example.model.Customer;
+import com.example.model.ListCategory;
+import com.example.model.Product;
 
 public class ProductManagementActivity extends AppCompatActivity {
 
@@ -88,9 +88,9 @@ public class ProductManagementActivity extends AppCompatActivity {
     }
 
     private void displayProductByCategory(Category c) {
-        //xoá dữ liệu danh sách sản phẩm cũ đi:
+        
         adapterProduct.clear();
-        //thêm dữ liệu mới vào:
+        
         adapterProduct.addAll(c.getProducts());
     }
 
@@ -164,7 +164,7 @@ public class ProductManagementActivity extends AppCompatActivity {
 
         if (selectedCategory != null) {
             displayProductByCategory(selectedCategory);
-            return true; // Đã xử lý xong menu
+            return true; 
         }
 
         return super.onOptionsItemSelected(item);
