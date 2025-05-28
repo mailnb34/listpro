@@ -1,4 +1,4 @@
-package com.quin.utlis;
+package com.example.utlis;
 
 public class HealthCare {
     public static BMIStatus calculate_bmi(double height,double weight)
@@ -6,7 +6,7 @@ public class HealthCare {
         double BMI=weight/Math.pow(height,2);
         String des="";
         if (BMI<18.5){
-            des="Gầy dơ xương";
+            des="Gầy trơ xương";
         }
         else if(BMI<23)
         {
