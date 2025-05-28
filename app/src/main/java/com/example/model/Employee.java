@@ -1,4 +1,4 @@
-package com.quin.model;
+package com.example.model;
 
 public class Employee {
     private String name;
