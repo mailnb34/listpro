@@ -10,5 +10,5 @@
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
 
-    <style name="Theme.Project195" parent="Base.Theme.Project195WithActionBar" />
+    <style name="Theme.Listpro" parent="Base.Theme.Project195WithActionBar" />
 </resources>
